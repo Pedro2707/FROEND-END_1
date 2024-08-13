@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* Estilo anterior, puedes eliminar esto si usas Tailwind */
+  background-color: #282c34; /* Reemplaza con Tailwind: bg-gray-800 */
+  min-height: 100vh; /* Reemplaza con Tailwind: min-h-screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); /* Puedes ajustar con Tailwind */
+  color: white; /* Reemplaza con Tailwind: text-white */
+}
+
+.App-link {
+  color: #61dafb; /* Reemplaza con Tailwind: text-blue-500 */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes moveAmbulance {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw); /* Mueve el GIF a la derecha */
+  }
+}
+
+
+

@@ -1,0 +1,1 @@
+export const dashboardParams = ['citas', 'personas'];
